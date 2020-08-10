@@ -1,8 +1,7 @@
 import { Injectable } from '@angular/core';
-import { Observable } from 'rxjs/Observable';
+import { Observable ,  Subscriber } from 'rxjs';
 import * as adalLib from 'adal-angular';
 import { OAuthData } from './oauthdata.model';
-import { Subscriber } from 'rxjs/Subscriber';
 import User = adal.User;
 
 @Injectable()

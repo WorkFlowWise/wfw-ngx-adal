@@ -24,15 +24,10 @@ const bundleConfig = {
         '@angular/compiler': 'npm:@angular/compiler/bundles/compiler.umd.js',
         '@angular/platform-browser': 'npm:@angular/platform-browser/bundles/platform-browser.umd.js',
         '@angular/http': 'npm:@angular/http/bundles/http.umd.js',
-        'rxjs': 'npm:rxjs'
-    },
-    packages: {
-
-        'rxjs': {
-            main: 'Rx.js',
-            defaultExtension: 'js'
-        }
+        'rxjs': 'npm:rxjs/bundles/rxjs.umd.js',
+        'rxjs/operators': 'npm:rxjs/bundles/rxjs.umd.js',
     }
+
 };
 
 function bundle(moduleName, moduleBundleName, minify, done) {
