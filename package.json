@@ -1,6 +1,6 @@
 {
   "name": "wfw-ngx-adal",
-  "version": "2.0.5",
+  "version": "3.0.0-beta.0",
   "description": "Use Azure AD Library - ADAL in Angular 5",
   "repository": {
     "type": "git",
